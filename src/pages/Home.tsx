@@ -203,7 +203,7 @@ export default function Home() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl md:text-3xl font-bold text-accent">
-                    90 dias
+                    12 meses
                   </p>
                   <p className="text-sm text-muted-foreground">Prazo de Saque</p>
                 </div>
