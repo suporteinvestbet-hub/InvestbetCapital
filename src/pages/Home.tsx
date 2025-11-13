@@ -615,11 +615,11 @@ export default function Home() {
               },
               {
                 q: "Quanto tempo leva para sacar meus ganhos?",
-                a: "Os saques de capital ficam disponíveis após 90 dias da data de cada aporte. Os ganhos podem ser sacados a qualquer momento.",
+                a: "Os saques de capital ficam disponíveis após 12 meses da data de cada aporte. Os ganhos são pagos todo dia 1° rigorosamente em dia de forma automática no pix cadastrado.",
               },
               {
                 q: "Posso sacar meus ganhos a qualquer momento?",
-                a: "Sim, os ganhos acumulados podem ser sacados a qualquer momento. O capital inicial fica sujeito ao prazo de 90 dias.",
+                a: "Toda rentabilidade é paga rigorosamente todo dia 1°. O capital inicial fica sujeito ao prazo de 12 meses.",
               },
               {
                 q: "Como funciona o gerenciamento de banca?",
