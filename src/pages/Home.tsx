@@ -547,7 +547,7 @@ Estratégias inteligentes no mercado de empate com rentabilidade
 				  A Rentabilidade é paga de forma automática todo dia 1°.
               </p>
               <p className="text-sm text-muted-foreground italic">
-                Exemplo: Aporte em 01/01 → Saque disponível a partir de 01/04
+                Exemplo: Aporte em 01/01/2025 → Saque disponível a partir de 01/01/2026
               </p>
             </Card>
 
