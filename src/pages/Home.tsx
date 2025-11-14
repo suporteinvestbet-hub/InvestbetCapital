@@ -203,9 +203,9 @@ export default function Home() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl md:text-3xl font-bold text-accent">
-                    12 meses
+                    Todo dia 1° 
                   </p>
-                  <p className="text-sm text-muted-foreground">Prazo de Saque</p>
+                  <p className="text-sm text-muted-foreground">Saque Rentabilidade</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl md:text-3xl font-bold text-accent">
