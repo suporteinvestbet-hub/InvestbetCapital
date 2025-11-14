@@ -99,10 +99,10 @@ export default function Home() {
 
           {/* Desktop Buttons */}
           <div className="hidden md:flex gap-4">
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
+            <Button variant="outline" className="border-primary text-primary hover:bg-primary/10" onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}>
               Acessar Conta
             </Button>
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground" onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}>
               Começar Agora
             </Button>
           </div>
@@ -156,10 +156,10 @@ export default function Home() {
               Contato
             </button>
             <div className="flex flex-col gap-2 pt-4 border-t border-border">
-              <Button variant="outline" className="w-full border-primary text-primary">
+              <Button variant="outline" className="w-full border-primary text-primary" onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}>
                 Acessar Conta
               </Button>
-              <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
+              <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}>
                 Começar Agora
               </Button>
             </div>
@@ -187,9 +187,9 @@ export default function Home() {
               </h1>
 
               <p className="text-lg text-muted-foreground">
-                Estratégias inteligentes no mercado de empate com rentabilidade
-                média de 2% a 10% ao mês. Gestão profissional de banca e análise
-                estatística para maximizar seus ganhos.
+Estratégias inteligentes no mercado de empate com rentabilidade
+	                média de 2% a 10% ao mês. Saque do capital disponível após 12 meses. Gestão profissional de banca e análise
+	                estatística para maximizar seus ganhos.
               </p>
 
               <div className="grid grid-cols-3 gap-4 py-8">
@@ -203,9 +203,9 @@ export default function Home() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl md:text-3xl font-bold text-accent">
-                    90 dias
+                    Todo dia 1
                   </p>
-                  <p className="text-sm text-muted-foreground">Prazo de Saque</p>
+                  <p className="text-sm text-muted-foreground">Pagamento de Rendimentos</p>
                 </div>
                 <div className="text-center">
                   <p className="text-2xl md:text-3xl font-bold text-accent">
@@ -216,13 +216,14 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-3 text-lg">
+                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-3 text-lg" onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}>
                   Começar Agora
                 </Button>
-                <Button
-                  variant="outline"
-                  className="border-primary text-primary hover:bg-primary/10 font-semibold py-3 text-lg"
-                >
+<Button
+	                  variant="outline"
+	                  className="border-primary text-primary hover:bg-primary/10 font-semibold py-3 text-lg"
+	                  onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}
+	                >
                   Acessar Conta
                 </Button>
               </div>
