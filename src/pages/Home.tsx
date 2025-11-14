@@ -617,7 +617,7 @@ Estratégias inteligentes no mercado de empate com rentabilidade
               },
               {
                 q: "Quanto tempo leva para sacar meus ganhos?",
-                a: "Os saques de capital ficam disponíveis após 90 dias da data de cada aporte. Os ganhos podem ser sacados a qualquer momento.",
+                a: "Os saques de capital ficam disponíveis após 12 meses da data de cada aporte. Os ganhos são pagos de forma automática todo dia 1°.",
               },
               {
                 q: "Posso sacar meus ganhos a qualquer momento?",
