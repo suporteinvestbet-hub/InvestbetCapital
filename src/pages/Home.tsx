@@ -541,9 +541,10 @@ Estratégias inteligentes no mercado de empate com rentabilidade
                 ⏱️ Tempo de Saque
               </h3>
               <p className="text-muted-foreground mb-4">
-                Os saques de capital ficam disponíveis após <strong>90 dias</strong> da
+                Os saques de capital ficam disponíveis após <strong>12 meses</strong> da
                 data de cada aporte. Esta política garante a estabilidade das
                 operações e a longevidade do seu investimento.
+				  A Rentabilidade é paga de forma automática todo dia 1°.
               </p>
               <p className="text-sm text-muted-foreground italic">
                 Exemplo: Aporte em 01/01 → Saque disponível a partir de 01/04
