@@ -203,7 +203,7 @@ export default function Home() {
                 </div>
                 <div className="text-center">
                   <p className="text-2xl md:text-3xl font-bold text-accent">
-                    Saque da Rentabilidade
+                    Saque 
                   </p>
                   <p className="text-sm text-muted-foreground">todo dia 1°</p>
                 </div>
