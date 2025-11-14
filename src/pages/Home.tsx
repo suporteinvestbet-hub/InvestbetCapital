@@ -100,11 +100,9 @@ export default function Home() {
           {/* Desktop Buttons */}
           <div className="hidden md:flex gap-4">
             <Button variant="outline" className="border-primary text-primary hover:bg-primary/10" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
-  Acessar Conta
-</Button>
-<Button className="bg-accent hover:bg-accent/90 text-accent-foreground" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
-  Começar Agora
-</Button>
+              Acessar Conta
+            </Button>
+            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
               Começar Agora
             </Button>
           </div>
@@ -156,14 +154,12 @@ export default function Home() {
               className="block w-full text-left text-foreground hover:text-accent transition-colors py-2"
             >
               Contato
-            <Button variant="outline" className="w-full border-primary text-primary" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
-  Acessar Conta
-</Button>
-<Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
-  Começar Agora
-</Button>
+            </button>
+            <div className="flex flex-col gap-2 pt-4 border-t border-border">
+              <Button variant="outline" className="w-full border-primary text-primary" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
+                Acessar Conta
               </Button>
-              <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
+              <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
                 Começar Agora
               </Button>
             </div>
@@ -261,6 +257,9 @@ export default function Home() {
                         <p className="text-sm font-bold text-accent">
                           Resultado: R$ 17.959
                         </p>
+                        <p className="text-xs text-muted-foreground">
+                          (Valor final estimado)
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -274,196 +273,113 @@ export default function Home() {
       {/* ===== STRATEGY SECTION ===== */}
       <section id="strategy" className="py-20 bg-muted/30">
         <div className="container max-w-6xl mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Conteúdo */}
-            <div className="space-y-6 order-2 md:order-1">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Estratégia de Rentabilidade em Apostas Esportivas
-              </h2>
-
-              <p className="text-lg text-muted-foreground">
-                A InvestBet Capital especializa-se em operações de apostas
-                esportivas com foco no mercado de empate, uma das estratégias
-                mais rentáveis e previsíveis do segmento.
-              </p>
-
-              <div className="space-y-4">
-                {[
-                  {
-                    title: "Análise Estatística Profunda",
-                    desc: "Avaliação de históricos, desempenho em casa/fora, confrontos diretos",
-                  },
-                  {
-                    title: "Gestão de Risco",
-                    desc: "Controle rigoroso de exposição por operação",
-                  },
-                  {
-                    title: "Diversificação de Apostas",
-                    desc: "Distribuição estratégica entre múltiplas competições",
-                  },
-                  {
-                    title: "Acompanhamento em Tempo Real",
-                    desc: "Monitoramento contínuo de mercados e ajustes de estratégia",
-                  },
-                ].map((item, idx) => (
-                  <div key={idx} className="flex gap-4">
-                    <div className="text-2xl flex-shrink-0">✓</div>
-                    <div>
-                      <h4 className="font-semibold text-foreground">
-                        {item.title}
-                      </h4>
-                      <p className="text-sm text-muted-foreground">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Imagem */}
-            <div className="order-1 md:order-2 flex justify-center">
-              <div className="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-lg">
-                <img
-                  src="/football-field.png"
-                  alt="Campo de Futebol"
-                  className="w-full h-auto object-cover rounded-2xl"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== MANAGEMENT SECTION ===== */}
-      <section className="py-20 bg-background">
-        <div className="container max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Gerenciamento Profissional de Banca
+              Nossa Estratégia Vencedora
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              O gerenciamento de banca é o pilar fundamental para o sucesso
-              sustentável em apostas esportivas.
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Focamos no mercado de empate, utilizando análise estatística avançada
+              e gestão de risco rigorosa para maximizar a rentabilidade e proteger
+              o capital.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
-            {[
-              {
-                icon: "🎯",
-                title: "Controle de Exposição",
-                desc: "Cada operação representa uma porcentagem controlada do total disponível",
-              },
-              {
-                icon: "📊",
-                title: "Diversificação Estratégica",
-                desc: "Distribuição entre diferentes competições e mercados",
-              },
-              {
-                icon: "💰",
-                title: "Retirada de Lucros",
-                desc: "Estratégias de retirada progressiva de ganhos",
-              },
-              {
-                icon: "📈",
-                title: "Análise de Desempenho",
-                desc: "Acompanhamento detalhado com relatórios transparentes",
-              },
-            ].map((item, idx) => (
-              <Card key={idx} className="p-6 border-2 border-border hover:border-accent/50 transition-colors">
-                <div className="text-4xl mb-4">{item.icon}</div>
-                <h3 className="text-lg font-bold text-foreground mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-muted-foreground">{item.desc}</p>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== SIMULATOR SECTION ===== */}
-      <InvestmentSimulator />
-
-      {/* ===== CELEBRATING PLAYER SECTION ===== */}
-      <section className="py-12 bg-gradient-to-r from-primary to-primary/80">
-        <div className="container max-w-6xl mx-auto px-4">
-          <div className="flex justify-center">
-            <div className="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl">
-              <img
-                src="/celebrating-player.png"
-                alt="Jogador Comemorando"
-                className="w-full h-auto object-cover rounded-2xl"
-              />
-            </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="p-6 border-2 border-primary/30 bg-gradient-to-br from-primary/5 to-background">
+              <div className="text-4xl text-primary mb-4">🎯</div>
+              <h3 className="text-xl font-bold text-foreground mb-3">
+                Foco no Empate
+              </h3>
+              <p className="text-muted-foreground">
+                Especialização no mercado de empate, que oferece odds mais
+                estáveis e oportunidades de lucro consistentes.
+              </p>
+            </Card>
+            <Card className="p-6 border-2 border-primary/30 bg-gradient-to-br from-primary/5 to-background">
+              <div className="text-4xl text-primary mb-4">📈</div>
+              <h3 className="text-xl font-bold text-foreground mb-3">
+                Análise Estatística
+              </h3>
+              <p className="text-muted-foreground">
+                Utilizamos modelos preditivos e dados históricos para identificar
+                jogos com alta probabilidade de empate.
+              </p>
+            </Card>
+            <Card className="p-6 border-2 border-primary/30 bg-gradient-to-br from-primary/5 to-background">
+              <div className="text-4xl text-primary mb-4">🛡️</div>
+              <h3 className="text-xl font-bold text-foreground mb-3">
+                Gestão de Risco
+              </h3>
+              <p className="text-muted-foreground">
+                Aplicação de gestão de banca rigorosa para proteger o capital e
+                garantir a sustentabilidade a longo prazo.
+              </p>
+            </Card>
           </div>
         </div>
       </section>
 
       {/* ===== SERVICES SECTION ===== */}
-      <section id="services" className="py-20 bg-muted/30">
+      <section id="services" className="py-20 bg-background">
         <div className="container max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Nossos Serviços
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Escolha o plano que melhor se adequa aos seus objetivos de
-              investimento
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Oferecemos soluções completas para que você possa rentabilizar seu
+              capital sem precisar ser um especialista em apostas.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <ServiceCard
-              icon="🎁"
-              title="Sala Grátis"
-              description="Acesso gratuito a sinais de apostas selecionados. Receba de 1 a 3 sinais por semana diretamente em sua conta, sem qualquer custo ou compromisso."
-              benefits={[
-                "1 a 3 sinais por semana",
-                "100% gratuito",
-                "Sem compromisso",
-                "Acesso imediato",
-              ]}
-              buttonText="Participar Agora"
-              buttonAction={() =>
-                window.open("https://t.me/investbetoficial/1", "_blank")
-              }
+              icon="💰"
+              title="Gestão de Banca Profissional"
+              description="Seu capital é gerenciado por especialistas, seguindo estratégias de risco controladas e comprovadas."
             />
-
             <ServiceCard
-              icon="👑"
-              title="Sala VIP"
-              description="Acesso completo à plataforma InvestBet com gerenciamento profissional de banca. Receba sinais prioritários e análises detalhadas."
-              benefits={[
-                "Acesso completo",
-                "Gerenciamento de banca",
-                "Sinais prioritários",
-                "Relatórios mensais",
-                "Suporte 24/7",
-              ]}
-              buttonText="Saber Mais"
-              buttonAction={() =>
-                window.open("https://pay.kirvano.com/8296f56f-a115-44f9-aca9-eb1f62349ff9", "_blank")
-              }
-              highlighted={true}
+              icon="💻"
+              title="Acesso ao Painel de Controle"
+              description="Acompanhe em tempo real o desempenho do seu investimento, saldo e histórico de operações."
             />
-
             <ServiceCard
-              icon="⚙️"
-              title="Terceirização"
-              description="Deixe a InvestBet Capital gerenciar seus investimentos de forma completamente automática. Rentabilização automática de 2% a 10% ao mês."
-              benefits={[
-                "Rentabilização automática",
-                "Sem acompanhamento ativo",
-                "Gestão profissional",
-                "Relatórios transparentes",
-                "Retirada a qualquer momento",
-              ]}
-              buttonText="Acessar Plataforma"
-              buttonAction={() =>
-                window.open("https://investbetapp.netlify.app/", "_blank")
-              }
+              icon="📊"
+              title="Análise Exclusiva"
+              description="Receba relatórios periódicos com a análise detalhada das operações e projeções de rentabilidade."
+            />
+            <ServiceCard
+              icon="🔒"
+              title="Segurança e Transparência"
+              description="Garantia de transparência em todas as operações e segurança dos seus dados e capital."
+            />
+            <ServiceCard
+              icon="🤝"
+              title="Suporte Dedicado"
+              description="Equipe de suporte pronta para atender suas dúvidas e oferecer o melhor atendimento."
+            />
+            <ServiceCard
+              icon="🚀"
+              title="Rentabilidade Consistente"
+              description="Foco em resultados consistentes a longo prazo, com metas de 2% a 10% ao mês."
             />
           </div>
+        </div>
+      </section>
+
+      {/* ===== INVESTMENT SIMULATOR SECTION ===== */}
+      <section className="py-20 bg-primary/5">
+        <div className="container max-w-6xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Simule Seu Investimento
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Descubra o potencial de crescimento do seu capital com base em
+              nossa rentabilidade média.
+            </p>
+          </div>
+          <InvestmentSimulator />
         </div>
       </section>
 
@@ -472,35 +388,35 @@ export default function Home() {
         <div className="container max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Como Funcionam as Operações
+              Como Funciona
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Processo estratégico e transparente para proteger e potencializar
-              seus investimentos
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Um processo simples e transparente para você começar a rentabilizar
+              seu capital hoje mesmo.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-5 gap-4">
+          <div className="grid md:grid-cols-5 gap-8">
             {[
               {
                 num: "1",
-                title: "Aporte de Capital",
-                desc: "Você realiza o aporte inicial na plataforma",
+                title: "Cadastro",
+                desc: "Crie sua conta em nossa plataforma de forma rápida e segura.",
               },
               {
                 num: "2",
-                title: "Análise e Seleção",
-                desc: "Identificamos as melhores oportunidades",
+                title: "Aporte",
+                desc: "Transfira o capital que deseja investir via PIX ou TED.",
               },
               {
                 num: "3",
-                title: "Execução",
-                desc: "Executamos as operações com precisão",
+                title: "Gestão",
+                desc: "Nossa equipe aplica as estratégias no mercado de empate.",
               },
               {
                 num: "4",
                 title: "Acompanhamento",
-                desc: "Você acompanha em tempo real",
+                desc: "Monitore o desempenho em tempo real pelo seu painel.",
               },
               {
                 num: "5",
@@ -757,7 +673,7 @@ export default function Home() {
                       suporteinvestbet@gmail.com
                     </p>
                     <p className="text-xs text-muted-foreground mt-1">
-                      Suporte técnico e assistência
+                      Respondemos em até 24h
                     </p>
                   </div>
                 </div>
@@ -773,7 +689,7 @@ export default function Home() {
                         window.open(
                           "https://wa.me/5522997291348?text=Ol%C3%A1%20InvestBet%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os",
                           "_blank"
-                        )
+                         )
                       }
                       className="bg-green-500 hover:bg-green-600 text-white font-semibold mt-2"
                     >
