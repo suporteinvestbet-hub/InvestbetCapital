@@ -99,10 +99,12 @@ export default function Home() {
 
           {/* Desktop Buttons */}
           <div className="hidden md:flex gap-4">
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-              Acessar Conta
-            </Button>
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Button variant="outline" className="border-primary text-primary hover:bg-primary/10" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
+  Acessar Conta
+</Button>
+<Button className="bg-accent hover:bg-accent/90 text-accent-foreground" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
+  Começar Agora
+</Button>
               Começar Agora
             </Button>
           </div>
@@ -154,10 +156,12 @@ export default function Home() {
               className="block w-full text-left text-foreground hover:text-accent transition-colors py-2"
             >
               Contato
-            </button>
-            <div className="flex flex-col gap-2 pt-4 border-t border-border">
-              <Button variant="outline" className="w-full border-primary text-primary">
-                Acessar Conta
+            <Button variant="outline" className="w-full border-primary text-primary" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
+  Acessar Conta
+</Button>
+<Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" onClick={() => window.open("https://investbetapp.netlify.app/", "_blank" )}>
+  Começar Agora
+</Button>
               </Button>
               <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
                 Começar Agora
