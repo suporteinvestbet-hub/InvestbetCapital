@@ -620,7 +620,7 @@ Estratégias inteligentes no mercado de empate com rentabilidade
               },
               {
                 q: "Posso sacar meus ganhos a qualquer momento?",
-                a: "Sim, os ganhos acumulados podem ser sacados a qualquer momento. O capital inicial fica sujeito ao prazo de 90 dias.",
+                a: "Os ganhos acumulados e pagos todo dia 1° automáticamente. O capital inicial fica sujeito ao prazo de 12 meses.",
               },
               {
                 q: "Como funciona o gerenciamento de banca?",
