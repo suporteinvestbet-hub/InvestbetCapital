@@ -745,7 +745,7 @@ Estratégias inteligentes no mercado de empate com rentabilidade
                       E-mail Suporte
                     </h4>
                     <p className="text-muted-foreground">
-                      suporteinvestbet@gmail.com
+                      contato@investbetcapital.com
                     </p>
                     <p className="text-xs text-muted-foreground mt-1">
                       Suporte técnico e assistência
@@ -872,7 +872,7 @@ Estratégias inteligentes no mercado de empate com rentabilidade
             <div>
               <h4 className="font-semibold text-accent mb-4">Contato</h4>
               <ul className="space-y-2 text-sm text-primary-foreground/70">
-                <li>suporteinvestbet@gmail.com</li>
+                <li>contato@investbetcapital.com</li>
               </ul>
             </div>
           </div>
