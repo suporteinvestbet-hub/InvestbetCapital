@@ -750,7 +750,7 @@ export default function Home() {
                       E-mail Suporte
                     </h4>
                     <p className="text-muted-foreground">
-                      suporteinvestbet@gmail.com
+                      contato@investbetcapital.com
                     </p>
                     <p className="text-xs text-muted-foreground mt-1">
                       Suporte técnico e assistência
@@ -878,7 +878,7 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Contato</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>suporte@investbet.com</li>
+                <li>contato@investbetcapital.com</li>
                 <li>+55 (11) 9999-9999</li>
               </ul>
             </div>
