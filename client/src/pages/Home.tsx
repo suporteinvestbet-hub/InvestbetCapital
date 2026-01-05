@@ -170,7 +170,7 @@ export default function Home() {
       {/* ===== HERO SECTION ===== */}
       <section
         id="hero"
-        className="py-20 md:py-32 bg-gradient-to-b from-primary/5 to-background"
+        className="pb-20 md:pb-32 bg-gradient-to-b from-primary/5 to-background"
       >
         <div className="container max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
