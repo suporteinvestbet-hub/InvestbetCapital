@@ -62,7 +62,7 @@ export default function Home() {
               alt="InvestBet"
               className="h-10 w-10 object-contain"
             />
-            <span className="text-xl font-bold text-accent hidden sm:inline" style={{ fontFamily: "'Cinzel', serif" }}>
+            <span className="text-xl font-bold text-accent hidden sm:inline uppercase tracking-wider" style={{ fontFamily: "'Cinzel', serif", fontVariant: "normal" }}>
               InvestBet Capital
             </span>
           </div>
