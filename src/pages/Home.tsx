@@ -52,10 +52,8 @@ export default function Home() {
         />
       </div>
 
-      {/* ===== CONTENT WRAPPER ===== */}
-      <div className="relative z-10">
       {/* ===== HEADER ===== */}
-      <header className="sticky top-0 z-50 bg-primary border-b-2 border-accent shadow-lg backdrop-blur-sm bg-opacity-95">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-primary border-b-2 border-accent shadow-lg backdrop-blur-sm bg-opacity-95">
         <div className="container max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
@@ -166,6 +164,9 @@ export default function Home() {
           </div>
         )}
       </header>
+
+      {/* ===== CONTENT WRAPPER ===== */}
+      <div className="relative z-10 pt-20">
 
       {/* ===== HERO SECTION ===== */}
       <section
