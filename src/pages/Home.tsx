@@ -171,7 +171,7 @@ export default function Home() {
       {/* ===== HERO SECTION ===== */}
       <section
         id="hero"
-        className="pb-12 md:pb-20 bg-gradient-to-b from-primary/5 to-background"
+        className="pb-12 md:pb-20 bg-background"
       >
         <div className="container max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
