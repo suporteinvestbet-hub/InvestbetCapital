@@ -446,13 +446,13 @@ export default function Home() {
             <ServiceCard
               icon="⚙️"
               title="Terceirização"
-              description="Deixe a InvestBet Capital gerenciar seus investimentos de forma completamente automática. Rentabilização automática de 2% a 10% ao mês."
+              description="Transforme seu capital em Renda Passiva. Deixe a InvestBet Capital gerenciar seus investimentos de forma completamente automática, com rentabilidade média de 2% a 10% ao mês."
               benefits={[
-                "Rentabilização automática",
-                "Sem acompanhamento ativo",
-                "Gestão profissional",
+                "Rentabilidade automática (2-10% a.m.)",
+                "Pagamento de Ganhos todo dia 1º",
+                "Gestão profissional de banca",
                 "Relatórios transparentes",
-                "Retirada a qualquer momento",
+                "Foco em Renda Passiva",
               ]}
               buttonText="Acessar Plataforma"
               buttonAction={() =>
@@ -743,7 +743,7 @@ export default function Home() {
                       E-mail Suporte
                     </h4>
                     <p className="text-muted-foreground">
-                      suporteinvestbet@gmail.com
+                      contato@investbetcapital.com
                     </p>
                     <p className="text-xs text-muted-foreground mt-1">
                       Suporte técnico e assistência
@@ -870,7 +870,7 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-accent mb-4">Contato</h4>
               <ul className="space-y-2 text-sm text-primary-foreground/70">
-                <li>suporteinvestbet@gmail.com</li>
+                <li>contato@investbetcapital.com</li>
               </ul>
             </div>
           </div>
