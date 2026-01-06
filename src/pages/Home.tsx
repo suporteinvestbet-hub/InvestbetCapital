@@ -62,8 +62,8 @@ export default function Home() {
               alt="InvestBet"
               className="h-10 w-10 object-contain"
             />
-            <span className="text-lg md:text-xl font-bold text-accent">
-              InvestBet Capital
+            <span className="text-lg md:text-xl font-bold text-accent uppercase tracking-wider">
+              INVESTBET CAPITAL
             </span>
           </div>
 
