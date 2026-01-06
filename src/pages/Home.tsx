@@ -62,7 +62,7 @@ export default function Home() {
               alt="InvestBet"
               className="h-10 w-10 object-contain"
             />
-            <span className="text-xl font-bold text-accent hidden sm:inline uppercase tracking-wider" style={{ fontFamily: "'Cinzel', serif", fontVariant: "normal" }}>
+            <span className="text-lg md:text-xl font-bold text-accent">
               InvestBet Capital
             </span>
           </div>
@@ -166,81 +166,79 @@ export default function Home() {
       </header>
 
       {/* ===== CONTENT WRAPPER ===== */}
-      <div className="relative z-10 pt-16">
+      <div className="relative z-10 pt-16 md:pt-20">
 
       {/* ===== HERO SECTION ===== */}
       <section
         id="hero"
-        className="pb-12 md:pb-20 bg-background"
+        className="py-8 md:py-20 bg-gradient-to-b from-primary/5 to-background"
       >
         <div className="container max-w-6xl mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Conteúdo */}
-            <div className="space-y-6">
+            <div className="space-y-4 md:space-y-6">
               <div className="inline-flex items-center gap-2 bg-accent/10 px-4 py-2 rounded-full">
-                <span className="text-accent font-semibold text-sm">
+                <span className="text-accent font-semibold text-xs md:text-sm">
                   ⭐ Rentabilidade Comprovada
                 </span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl font-bold text-foreground leading-tight">
+              <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight">
                 Rentabilize Seus Investimentos em Apostas Esportivas
               </h1>
 
-              <p className="text-lg text-muted-foreground">
-Estratégias inteligentes no mercado de empate com rentabilidade
-	                média de 2% a 10% ao mês. Saque do capital disponível após 12 meses. Gestão profissional de banca e análise
-	                estatística para maximizar seus ganhos.
+              <p className="text-base md:text-lg text-muted-foreground">
+                Estratégias inteligentes no mercado de empate com rentabilidade média de 2% a 10% ao mês. Saque do capital disponível após 12 meses. Gestão profissional de banca e análise estatística para maximizar seus ganhos.
               </p>
 
-              <div className="grid grid-cols-3 gap-4 py-8">
+              <div className="grid grid-cols-3 gap-3 md:gap-4 py-6 md:py-8">
                 <div className="text-center">
-                  <p className="text-2xl md:text-3xl font-bold text-accent">
+                  <p className="text-xl md:text-3xl font-bold text-accent">
                     2-10%
                   </p>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-xs md:text-sm text-muted-foreground">
                     Rentabilidade Mensal
                   </p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl md:text-3xl font-bold text-accent">
+                  <p className="text-xl md:text-3xl font-bold text-accent">
                     Todo dia 1
                   </p>
-                  <p className="text-sm text-muted-foreground">Pagamento de Rendimentos</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Pagamento de Rendimentos</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl md:text-3xl font-bold text-accent">
+                  <p className="text-xl md:text-3xl font-bold text-accent">
                     24/7
                   </p>
-                  <p className="text-sm text-muted-foreground">Operações Abertas</p>
+                  <p className="text-xs md:text-sm text-muted-foreground">Operações Abertas</p>
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-3 text-lg" onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}>
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2 md:pt-4">
+                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-2 md:py-3 text-base md:text-lg" onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}>
                   Começar Agora
                 </Button>
-<Button
-	                  variant="outline"
-	                  className="border-primary text-primary hover:bg-primary/10 font-semibold py-3 text-lg"
-	                  onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}
-	                >
+                <Button
+                  variant="outline"
+                  className="border-accent text-accent hover:bg-accent/20 font-semibold py-2 md:py-3 text-base md:text-lg"
+                  onClick={() => window.open('https://investbetapp.netlify.app/', '_blank')}
+                >
                   Acessar Conta
                 </Button>
               </div>
             </div>
 
             {/* Imagem/Ilustração */}
-            <div className="flex justify-center">
+            <div className="flex justify-center mt-8 md:mt-0">
               <div className="relative w-full max-w-sm">
                 <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-primary/20 rounded-3xl blur-3xl"></div>
-                <Card className="relative p-8 border-2 border-accent/30 bg-gradient-to-br from-accent/10 to-primary/10">
-                  <div className="text-center space-y-4">
-                    <div className="text-6xl">📊</div>
-                    <h3 className="text-xl font-bold text-foreground">
+                <Card className="relative p-6 md:p-8 border-2 border-accent/30 bg-gradient-to-br from-accent/10 to-primary/10">
+                  <div className="text-center space-y-3 md:space-y-4">
+                    <div className="text-5xl md:text-6xl">📊</div>
+                    <h3 className="text-lg md:text-xl font-bold text-foreground">
                       Simulador Inteligente
                     </h3>
-                    <p className="text-sm text-muted-foreground">
+                    <p className="text-xs md:text-sm text-muted-foreground">
                       Calcule sua rentabilidade com base em seus objetivos
                     </p>
                     <div className="bg-background rounded-lg p-4 space-y-2 text-left">
@@ -745,7 +743,7 @@ Estratégias inteligentes no mercado de empate com rentabilidade
                       E-mail Suporte
                     </h4>
                     <p className="text-muted-foreground">
-                      contato@investbetcapital.com
+                      suporteinvestbet@gmail.com
                     </p>
                     <p className="text-xs text-muted-foreground mt-1">
                       Suporte técnico e assistência
@@ -872,7 +870,7 @@ Estratégias inteligentes no mercado de empate com rentabilidade
             <div>
               <h4 className="font-semibold text-accent mb-4">Contato</h4>
               <ul className="space-y-2 text-sm text-primary-foreground/70">
-                <li>contato@investbetcapital.com</li>
+                <li>suporteinvestbet@gmail.com</li>
               </ul>
             </div>
           </div>
