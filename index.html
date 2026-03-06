@@ -9,6 +9,42 @@
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/favicon.png" />
     <title>InvestBet Capital</title>
+    <!-- Script de inicialização do OneSignal -->
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      OneSignalDeferred.push(async function(OneSignal) {
+        await OneSignal.init({
+          appId: "e8446d92-93e3-420e-b77b-e8db93e19710",
+          language: 'pt-BR',
+          serviceWorkerPath: "/sw.js",
+          allowLocalhostAsSecureOrigin: true,
+          notifyButton: {
+            enable: true,
+            size: 'medium',
+            theme: 'default',
+            position: 'bottom-right',
+            text: {
+              'tip.unsubscribed': 'Ativar notificações',
+              'tip.subscribed': 'Você está inscrito',
+              'tip.blocked': 'Notificações bloqueadas',
+              'message.action.subscribed': 'Obrigado por se inscrever!',
+              'message.action.resubscribed': 'Você está inscrito',
+              'message.action.unsubscribed': 'Você não receberá mais notificações',
+              'dialog.main.title': 'Gerenciar Notificações',
+              'dialog.main.button.unsubscribe': 'Desativar',
+              'dialog.main.button.subscribe': 'Ativar'
+            }
+          },
+          welcomeNotification: {
+            disable: false,
+            title: 'Bem-vindo(a) ao InvestBet Capital!',
+            message: 'Obrigado por se inscrever em nossas notificações.',
+            url: 'https://investbetapp.netlify.app/'
+          }
+        });
+      });
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet" />
